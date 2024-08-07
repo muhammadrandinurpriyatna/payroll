@@ -10,6 +10,9 @@ class LoginController extends Controller
 {
     public function loginForm()
     {
+        if (Auth::check()) {
+            return redirect('/user');
+        }
         return view('pages.login');
     }
 

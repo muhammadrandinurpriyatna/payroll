@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
         <title>Payroll</title>
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon" />
-        <link href="{{ asset('css/light/loader.css') }}" rel="stylesheet" type="text/css" />
-        <script src="{{ asset('loader.js') }}"></script>
+        <link href="{{ asset('css/loader.css') }}" rel="stylesheet" type="text/css" />
+        <script src="{{ asset('js/loader.js') }}"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
         <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('css/light/plugins.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('css/light/authentication/auth-cover.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/plugins.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('css/auth-cover.css') }}" rel="stylesheet" type="text/css" />
     </head>
     <body class="form">
         <div id="load_screen"> 

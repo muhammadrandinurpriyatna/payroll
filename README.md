@@ -7,6 +7,86 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Requirements
+
+- PHP 8.2 or higher
+- Composer 2.x
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/muhammadrandinurpriyatna/payroll.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd payroll
+    ```
+
+3. Install the dependencies using Composer:
+    ```bash
+    composer install
+    ```
+
+4. Copy the example environment file:
+    ```bash
+    cp .env.example .env
+    ```
+
+5. Generate the application key:
+    ```bash
+    php artisan key:generate
+    ```
+
+6. Run the database migrations and seed the database:
+    ```bash
+    php artisan migrate --seed
+    ```
+
+7. Serve the application:
+    ```bash
+    php artisan serve
+    ```
+
+## Authentication
+
+### Admin
+
+To log in as an admin, use the following credentials:
+
+- **Name**: Admin
+- **Email**: admin@example.com
+- **Password**: `Admin*123`
+
+These credentials will allow you to access the `/login` route of the application.
+
+### Pegawai
+
+To be absent (employee), use the following credentials:
+
+Pegawai 1 :
+- **Name**: Pegawai 1
+- **NIP**: 1001
+- **Email**: pegawai1@example.com
+- **Password**: `Pegawai1*123`
+
+Pegawai 2
+
+- **Name**: Pegawai 2
+- **NIP**: 1002
+- **Email**: pegawai2@example.com
+- **Password**: `Pegawai*123`
+
+Pegawai 3
+
+- **Name**: Pegawai 3
+- **NIP**: 1003
+- **Email**: pegawai3@example.com
+- **Password**: `Pegawai*123`
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

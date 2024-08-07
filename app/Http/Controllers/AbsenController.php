@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Absen;
 use App\Models\Pegawai;
 use Carbon\Carbon;
@@ -11,6 +12,9 @@ class AbsenController extends Controller
 {
     public function index()
     {
+        if (Auth::check()) {
+            return redirect('/user');
+        }
         return view('pages.absen');
     }
 
